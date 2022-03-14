@@ -1,0 +1,22 @@
+.listBlocks {
+  background-color: rgb(221, 167, 18);
+  margin: 0 auto; 
+  min-height: 20px; 
+  min-width: 10px; 
+  justify-content: flex;
+  text-align: center;
+}
+
+.listBlocks > .block {
+  background-color: rgb(68, 31, 235);
+  color: #eb5510;
+  display: inline-flex;
+  /* border-radius: 2px; */
+  font-size: 0.5rem;
+  font-weight: bold;
+  margin: 0px 1px;
+  text-align: center;
+  transition-duration: 10ms;
+  transition-property: height;
+  transition-timing-function: ease-in;
+}
